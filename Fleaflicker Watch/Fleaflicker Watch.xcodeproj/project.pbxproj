@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277EE679265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 277EE678265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		277EE67E265BA87600FA2925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277EE67D265BA87600FA2925 /* Assets.xcassets */; };
+		277EE685265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 277EE684265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		277EE68A265BA87700FA2925 /* Fleaflicker_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE689265BA87700FA2925 /* Fleaflicker_WatchApp.swift */; };
+		277EE68C265BA87700FA2925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE68B265BA87700FA2925 /* ContentView.swift */; };
+		277EE68E265BA87700FA2925 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE68D265BA87700FA2925 /* NotificationController.swift */; };
+		277EE690265BA87700FA2925 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE68F265BA87700FA2925 /* NotificationView.swift */; };
+		277EE692265BA87700FA2925 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE691265BA87700FA2925 /* ComplicationController.swift */; };
+		277EE694265BA87800FA2925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277EE693265BA87800FA2925 /* Assets.xcassets */; };
+		277EE697265BA87800FA2925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277EE696265BA87800FA2925 /* Preview Assets.xcassets */; };
+		277EE6A9265BA8EA00FA2925 /* LeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE6A8265BA8EA00FA2925 /* LeagueModel.swift */; };
+		277EE6AB265BAB6700FA2925 /* RosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE6AA265BAB6700FA2925 /* RosterView.swift */; };
+		277EE6AD265BAC9600FA2925 /* RosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE6AC265BAC9600FA2925 /* RosterModel.swift */; };
+		277EE6B0265BAD5300FA2925 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EE6AF265BAD5300FA2925 /* Function.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277EE67A265BA87500FA2925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277EE66E265BA87500FA2925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277EE677265BA87500FA2925;
+			remoteInfo = "Fleaflicker Watch WatchKit App";
+		};
+		277EE686265BA87700FA2925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277EE66E265BA87500FA2925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277EE683265BA87700FA2925;
+			remoteInfo = "Fleaflicker Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		277EE69F265BA87800FA2925 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				277EE685265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277EE6A3265BA87800FA2925 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				277EE679265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		277EE674265BA87500FA2925 /* Fleaflicker Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fleaflicker Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277EE678265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fleaflicker Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277EE67D265BA87600FA2925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277EE67F265BA87600FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277EE684265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fleaflicker Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277EE689265BA87700FA2925 /* Fleaflicker_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleaflicker_WatchApp.swift; sourceTree = "<group>"; };
+		277EE68B265BA87700FA2925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		277EE68D265BA87700FA2925 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		277EE68F265BA87700FA2925 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		277EE691265BA87700FA2925 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		277EE693265BA87800FA2925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277EE696265BA87800FA2925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		277EE698265BA87800FA2925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277EE699265BA87800FA2925 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		277EE6A8265BA8EA00FA2925 /* LeagueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueModel.swift; sourceTree = "<group>"; };
+		277EE6AA265BAB6700FA2925 /* RosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterView.swift; sourceTree = "<group>"; };
+		277EE6AC265BAC9600FA2925 /* RosterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterModel.swift; sourceTree = "<group>"; };
+		277EE6AF265BAD5300FA2925 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277EE681265BA87700FA2925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277EE66D265BA87500FA2925 = {
+			isa = PBXGroup;
+			children = (
+				277EE67C265BA87500FA2925 /* Fleaflicker Watch WatchKit App */,
+				277EE688265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension */,
+				277EE675265BA87500FA2925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277EE675265BA87500FA2925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277EE674265BA87500FA2925 /* Fleaflicker Watch.app */,
+				277EE678265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app */,
+				277EE684265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277EE67C265BA87500FA2925 /* Fleaflicker Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				277EE67D265BA87600FA2925 /* Assets.xcassets */,
+				277EE67F265BA87600FA2925 /* Info.plist */,
+			);
+			path = "Fleaflicker Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		277EE688265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				277EE6AE265BAD3D00FA2925 /* Utility */,
+				277EE6A7265BA8B200FA2925 /* Models */,
+				277EE689265BA87700FA2925 /* Fleaflicker_WatchApp.swift */,
+				277EE68B265BA87700FA2925 /* ContentView.swift */,
+				277EE68D265BA87700FA2925 /* NotificationController.swift */,
+				277EE68F265BA87700FA2925 /* NotificationView.swift */,
+				277EE691265BA87700FA2925 /* ComplicationController.swift */,
+				277EE693265BA87800FA2925 /* Assets.xcassets */,
+				277EE698265BA87800FA2925 /* Info.plist */,
+				277EE699265BA87800FA2925 /* PushNotificationPayload.apns */,
+				277EE695265BA87800FA2925 /* Preview Content */,
+				277EE6AA265BAB6700FA2925 /* RosterView.swift */,
+			);
+			path = "Fleaflicker Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		277EE695265BA87800FA2925 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				277EE696265BA87800FA2925 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		277EE6A7265BA8B200FA2925 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				277EE6A8265BA8EA00FA2925 /* LeagueModel.swift */,
+				277EE6AC265BAC9600FA2925 /* RosterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		277EE6AE265BAD3D00FA2925 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				277EE6AF265BAD5300FA2925 /* Function.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277EE673265BA87500FA2925 /* Fleaflicker Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277EE6A4265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch" */;
+			buildPhases = (
+				277EE672265BA87500FA2925 /* Resources */,
+				277EE6A3265BA87800FA2925 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277EE67B265BA87500FA2925 /* PBXTargetDependency */,
+			);
+			name = "Fleaflicker Watch";
+			productName = "Fleaflicker Watch";
+			productReference = 277EE674265BA87500FA2925 /* Fleaflicker Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		277EE677265BA87500FA2925 /* Fleaflicker Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277EE6A0265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch WatchKit App" */;
+			buildPhases = (
+				277EE676265BA87500FA2925 /* Resources */,
+				277EE69F265BA87800FA2925 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277EE687265BA87700FA2925 /* PBXTargetDependency */,
+			);
+			name = "Fleaflicker Watch WatchKit App";
+			productName = "Fleaflicker Watch WatchKit App";
+			productReference = 277EE678265BA87500FA2925 /* Fleaflicker Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		277EE683265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277EE69C265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch WatchKit Extension" */;
+			buildPhases = (
+				277EE680265BA87700FA2925 /* Sources */,
+				277EE681265BA87700FA2925 /* Frameworks */,
+				277EE682265BA87700FA2925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fleaflicker Watch WatchKit Extension";
+			productName = "Fleaflicker Watch WatchKit Extension";
+			productReference = 277EE684265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277EE66E265BA87500FA2925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					277EE673265BA87500FA2925 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					277EE677265BA87500FA2925 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					277EE683265BA87700FA2925 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 277EE671265BA87500FA2925 /* Build configuration list for PBXProject "Fleaflicker Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277EE66D265BA87500FA2925;
+			productRefGroup = 277EE675265BA87500FA2925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277EE673265BA87500FA2925 /* Fleaflicker Watch */,
+				277EE677265BA87500FA2925 /* Fleaflicker Watch WatchKit App */,
+				277EE683265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277EE672265BA87500FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277EE676265BA87500FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277EE67E265BA87600FA2925 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277EE682265BA87700FA2925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277EE697265BA87800FA2925 /* Preview Assets.xcassets in Resources */,
+				277EE694265BA87800FA2925 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277EE680265BA87700FA2925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277EE6B0265BAD5300FA2925 /* Function.swift in Sources */,
+				277EE6A9265BA8EA00FA2925 /* LeagueModel.swift in Sources */,
+				277EE68E265BA87700FA2925 /* NotificationController.swift in Sources */,
+				277EE68C265BA87700FA2925 /* ContentView.swift in Sources */,
+				277EE692265BA87700FA2925 /* ComplicationController.swift in Sources */,
+				277EE6AD265BAC9600FA2925 /* RosterModel.swift in Sources */,
+				277EE6AB265BAB6700FA2925 /* RosterView.swift in Sources */,
+				277EE68A265BA87700FA2925 /* Fleaflicker_WatchApp.swift in Sources */,
+				277EE690265BA87700FA2925 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277EE67B265BA87500FA2925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277EE677265BA87500FA2925 /* Fleaflicker Watch WatchKit App */;
+			targetProxy = 277EE67A265BA87500FA2925 /* PBXContainerItemProxy */;
+		};
+		277EE687265BA87700FA2925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277EE683265BA87700FA2925 /* Fleaflicker Watch WatchKit Extension */;
+			targetProxy = 277EE686265BA87700FA2925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		277EE69A265BA87800FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277EE69B265BA87800FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277EE69D265BA87800FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleaflicker Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fleaflicker Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		277EE69E265BA87800FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleaflicker Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fleaflicker Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		277EE6A1265BA87800FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				IBSC_MODULE = Fleaflicker_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Fleaflicker Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		277EE6A2265BA87800FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				IBSC_MODULE = Fleaflicker_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Fleaflicker Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		277EE6A5265BA87800FA2925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		277EE6A6265BA87800FA2925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2CV739CMW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stugreenham.Fleaflicker-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277EE671265BA87500FA2925 /* Build configuration list for PBXProject "Fleaflicker Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277EE69A265BA87800FA2925 /* Debug */,
+				277EE69B265BA87800FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277EE69C265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277EE69D265BA87800FA2925 /* Debug */,
+				277EE69E265BA87800FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277EE6A0265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277EE6A1265BA87800FA2925 /* Debug */,
+				277EE6A2265BA87800FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277EE6A4265BA87800FA2925 /* Build configuration list for PBXNativeTarget "Fleaflicker Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277EE6A5265BA87800FA2925 /* Debug */,
+				277EE6A6265BA87800FA2925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277EE66E265BA87500FA2925 /* Project object */;
+}
